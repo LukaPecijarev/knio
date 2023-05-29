@@ -4,45 +4,51 @@
     <meta charset="UTF-8">
     <title>ChatGPT</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div id="intro">
-        <h4>Welcome to out WebSite</h4><br><br><br>
-        <div id="line1"></div>
-        <h1>Which ChatGPT is best to use?</h1><br><br><br>
-        <div id="line2"></div>
-        <h3>What is ChatGPT?</h3>
-        <h5>ChatGPT is a language model developed by OpenAI, based on the GPT (Generative Pre-trained Transformer) architecture. Trained on a vast corpus of text data using unsupervised learning techniques, allowing it to generate human-like responses to a wide range of prompts and questions. As a language model, the main purpose is to generate text that is coherent, informative, and relevant to the input he receives.</h5>
-        <div id="line3"></div>
-        <p id="p1">ChatGPT Models</p>
-        <div id="layout">
-        <div id="gpt">
-                    <p id="gpt1label">ChatGPT 1</p>
-                    <img id="slika1" src="images/gotlogo.jpg">
-                    <div id="line4"></div>
-                    <div id="gpt1text">ChatGPT-1 (Generative Pre-trained Transformer 1) is the first version of the GPT series of language models developed by OpenAI. It was released in 2018 and has 117 million parameters, which is considerably smaller than its successors, ChatGPT-2 and ChatGPT-3.<br><br></div>
-                    <button id="btn1">Read more</button>
+    <div id="intro" class="mt-16">
+        <div class="frosted">
+            <h4 class="mx-auto pt-4">Welcome to our Website</h4>
+            <h1 class="mx-auto mt-2 border-t-2 border-b-2 border-black">Which ChatGPT is best to use?</h1>
+            <h2 class="mx-auto text-center mt-4 border-b-8 border-black w-fit">What is ChatGPT?</h2>
+            <h5 class="mx-auto text-center  border-2 border-black p-4">ChatGPT is a language model developed by OpenAI, based on the GPT (Generative Pre-trained Transformer) architecture. Trained on a vast corpus of text data using unsupervised learning techniques, allowing it to generate human-like responses to a wide range of prompts and questions. As a language model, the main purpose is to generate text that is coherent, informative, and relevant to the input he receives.</h5>
         </div>
-            <div id="gpt2">
-                <p id="gpt2label">ChatGPT 2</p>
-                <img id="slika2" src="images/gpt2.jpg">
-                <div id="line5"></div>
-                <div id="gpt2text">ChatGPT-2 is an advanced language model developed by OpenAI, and it is the predecessor to the larger and more advanced ChatGPT-3 model. ChatGPT-2 was released in 2019 and has 1.5 billion parameters, quite large and allows it to generate high-quality response to a wide range of prompts.</div>
-                <button id="btn2">Read more</button>
+
+        <div class="frosted mt-8">
+            <h1 class="py-2 text-center title">ChatGPT Models</h1>
+            <div class="layout flex mt-8">
+            <div class="gptw flex flex-col w-1/4">
+                        <p id="gpt1label">ChatGPT 1</p>
+                        <img id="slika1" src="images/gotlogo.jpg">
+                        <div id="line4"></div>
+                        <div id="gpt1text">ChatGPT-1 (Generative Pre-trained Transformer 1) is the first version of the GPT series of language models developed by OpenAI. It was released in 2018 and has 117 million parameters, which is considerably smaller than its successors, ChatGPT-2 and ChatGPT-3.<br><br></div>
+                        <button id="btn1">Read more</button>
             </div>
-            <div id="gpt3">
-                <p id="gpt3label">ChatGPT 3</p>
-                <img id="slika3" src="images/CHAT-GPT.png">
-                <div id="line6"></div>
-                <div id="gpt3text">Sure, ChatGPT-3 is the latest version of the GPT series of language models developed by OpenAI. It is one of the largest and most advanced language models to date, with 175 billion parameters, which is over ten times the size of its predecessor, GPT-2.</div>
-                <button id="btn3">Read more</button>
-            </div>
-            <div id="gpt4">
-                <p id="gpt4label">ChatGPT 4</p>
-                <img id="slika4" src="images/gpt4.jpg">
-                <div id="line7"></div>
-                <div id="gpt4text">ChatGPT-4 is an AI-powered chatbot developed by OpenAI, a research organization dedicated to creating advanced artificial intelligence technologies.The GPT-4 model was trained on a massive amount of text data - as much as a rumored 100 trillion parameters.</div>
-                <button id="btn4">Read more</button>
+                <div class="gptw flex flex-col w-1/4">
+                    <p id="gpt2label">ChatGPT 2</p>
+                    <img id="slika2" src="images/gpt2.jpg">
+                    <div id="line5"></div>
+                    <div id="gpt2text">ChatGPT-2 is an advanced language model developed by OpenAI, and it is the predecessor to the larger and more advanced ChatGPT-3 model. ChatGPT-2 was released in 2019 and has 1.5 billion parameters, quite large and allows it to generate high-quality response to a wide range of prompts.</div>
+                    <button id="btn2">Read more</button>
+                </div>
+                <div class="gptw flex flex-col w-1/4">
+                    <p id="gpt3label">ChatGPT 3</p>
+                    <img id="slika3" src="images/CHAT-GPT.png">
+                    <div id="line6"></div>
+                    <div id="gpt3text">Sure, ChatGPT-3 is the latest version of the GPT series of language models developed by OpenAI. It is one of the largest and most advanced language models to date, with 175 billion parameters, which is over ten times the size of its predecessor, GPT-2.</div>
+                    <button id="btn3">Read more</button>
+                </div>
+                <div class="gptw flex flex-col w-1/4">
+                    <p id="gpt4label">ChatGPT 4</p>
+                    <img id="slika4" src="images/gpt4.jpg">
+                    <div id="line7"></div>
+                    <div id="gpt4text">ChatGPT-4 is an AI-powered chatbot developed by OpenAI, a research organization dedicated to creating advanced artificial intelligence technologies.The GPT-4 model was trained on a massive amount of text data - as much as a rumored 100 trillion parameters.</div>
+                    <button id="btn4">Read more</button>
+                </div>
             </div>
         </div>
     </div>
