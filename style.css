@@ -1,9 +1,10 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(141deg, #de89c6, #9655f6, #b4d1ff);
+    background: linear-gradient(141deg, #dbe8ff, #e0cbff, #b4d1ff);
     background-size: 300% 300%;
     animation: AnimationName 2s ease infinite;
+    color: #0c4a6e;
 }
 
 #intro h4 {
@@ -88,6 +89,19 @@ body {
 
 .title{
     color: white;
-    background-color: black;
+    background-color: #0c4a6e;
     border-radius: 1rem 1rem 0rem 0rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+img{
+  aspect-ratio: 3/2;
+    width: 500px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+a {
+    border-radius: 0rem 0rem 1rem 1rem;
 }
